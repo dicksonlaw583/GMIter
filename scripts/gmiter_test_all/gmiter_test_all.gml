@@ -7,6 +7,7 @@ function gmiter_test_all() {
 	/* v Tests here v */
 	gmiter_test_nothing();
 	gmiter_test_drone();
+	gmiter_test_times();
 	/* ^ Tests here ^ */
 	
 	timeB = current_time;

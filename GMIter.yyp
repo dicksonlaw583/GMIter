@@ -8,10 +8,12 @@
     {"id":{"name":"NothingIter","path":"scripts/NothingIter/NothingIter.yy",},"order":0,},
     {"id":{"name":"DroneIter","path":"scripts/DroneIter/DroneIter.yy",},"order":1,},
     {"id":{"name":"__GMA_BREAKPOINT__","path":"scripts/__GMA_BREAKPOINT__/__GMA_BREAKPOINT__.yy",},"order":0,},
+    {"id":{"name":"TimesIter","path":"scripts/TimesIter/TimesIter.yy",},"order":0,},
     {"id":{"name":"GMIter","path":"scripts/GMIter/GMIter.yy",},"order":0,},
     {"id":{"name":"gmiter_test_all","path":"scripts/gmiter_test_all/gmiter_test_all.yy",},"order":1,},
     {"id":{"name":"GMIterForEachSpy","path":"scripts/GMIterForEachSpy/GMIterForEachSpy.yy",},"order":3,},
     {"id":{"name":"GMIterNextException","path":"scripts/GMIterNextException/GMIterNextException.yy",},"order":1,},
+    {"id":{"name":"gmiter_test_times","path":"scripts/gmiter_test_times/gmiter_test_times.yy",},"order":6,},
     {"id":{"name":"rm_gmiter_test","path":"rooms/rm_gmiter_test/rm_gmiter_test.yy",},"order":0,},
   ],
   "Options": [
@@ -46,6 +48,7 @@
     {"folderPath":"folders/Libraries/GMIter.yy","order":2,"resourceVersion":"1.0","name":"GMIter","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Libraries/GMIter/Core.yy","order":2,"resourceVersion":"1.0","name":"Core","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Libraries/GMIter/Bogus.yy","order":3,"resourceVersion":"1.0","name":"Bogus","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Libraries/GMIter/Basic.yy","order":4,"resourceVersion":"1.0","name":"Basic","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

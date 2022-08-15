@@ -10,6 +10,7 @@ function gmiter_test_all() {
 	gmiter_test_times();
 	gmiter_test_array();
 	gmiter_test_struct();
+	gmiter_test_ds_map();
 	/* ^ Tests here ^ */
 	
 	timeB = current_time;

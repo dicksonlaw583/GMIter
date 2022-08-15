@@ -15,7 +15,6 @@ function gmiter_test_struct(){
 	assert_equal(structIter.value, "bar", "Core with StructIter - Starting state - Bad value for normal");
 	assert_equal(structIter.getIndex(), "foo", "Core with StructIter - Starting state - Bad getIndex() for normal");
 	assert_equal(structIter.getValue(), "bar", "Core with StructIter - Starting state - Bad getValue() for normal");
-	exit;
 	#endregion
 	
 	#region Fetching

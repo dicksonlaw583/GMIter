@@ -7,7 +7,7 @@
 //Feather disable GM1045
 function gmi_array_sorted_by_column(arr, n, sortType=true) {
 	array_sort(arr, method({n: n, sortType: sortType}, function(a, b) {
-		return sortType ? (a-b) : (b-a);
+		return sortType ? (a[n]-b[n]) : (b[n]-a[n]);
 	}));
 	return arr;
 }

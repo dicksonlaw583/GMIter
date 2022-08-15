@@ -11,6 +11,7 @@ function gmiter_test_all() {
 	gmiter_test_array();
 	gmiter_test_struct();
 	gmiter_test_ds_map();
+	gmiter_test_ds_list();
 	/* ^ Tests here ^ */
 	
 	timeB = current_time;

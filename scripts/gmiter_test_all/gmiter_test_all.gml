@@ -12,6 +12,7 @@ function gmiter_test_all() {
 	gmiter_test_struct();
 	gmiter_test_ds_map();
 	gmiter_test_ds_list();
+	gmiter_test_text_file();
 	/* ^ Tests here ^ */
 	
 	timeB = current_time;

@@ -14,6 +14,7 @@ function gmiter_test_all() {
 	gmiter_test_ds_list();
 	gmiter_test_text_file();
 	gmiter_test_csv_file_array();
+	gmiter_test_csv_file_struct();
 	/* ^ Tests here ^ */
 	
 	timeB = current_time;

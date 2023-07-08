@@ -51,7 +51,7 @@ function GMIter() constructor {
 		var arr = [];
 		for (var i = n-1; i >= 0; --i) {
 			if (!hasNext()) break;
-			array_push(arr, value);
+			array_push(arr, getValue());
 			next();
 		}
 		return arr;
@@ -65,7 +65,7 @@ function GMIter() constructor {
 		var arr = [];
 		for (var i = n-1; i >= 0; --i) {
 			if (!hasNext()) break;
-			array_push(arr, index);
+			array_push(arr, getIndex());
 			next();
 		}
 		return arr;
@@ -79,7 +79,7 @@ function GMIter() constructor {
 		var arr = [];
 		for (var i = n-1; i >= 0; --i) {
 			if (!hasNext()) break;
-			array_push(arr, [value, index]);
+			array_push(arr, [getValue(), getIndex()]);
 			next();
 		}
 		return arr;
@@ -93,7 +93,7 @@ function GMIter() constructor {
 		var strc = {};
 		for (var i = n-1; i >= 0; --i) {
 			if (!hasNext()) break;
-			strc[$ string(index)] = value;
+			strc[$ string(index)] = getValue();
 			next();
 		}
 		return strc;

@@ -8,6 +8,7 @@ function gmiter_test_all() {
 	gmiter_test_nothing();
 	gmiter_test_drone();
 	gmiter_test_times();
+	gmiter_test_range();
 	gmiter_test_array();
 	gmiter_test_struct();
 	gmiter_test_ds_map();

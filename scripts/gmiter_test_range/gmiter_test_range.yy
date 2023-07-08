@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "gmiter_test_all",
+  "name": "gmiter_test_range",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

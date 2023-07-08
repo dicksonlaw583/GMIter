@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "GMIterStruct",
+  "name": "gmiter_test_line",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

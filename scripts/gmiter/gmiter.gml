@@ -107,7 +107,7 @@ function GMIter() constructor {
 	static forEach = function(func, n=infinity, funcArg=undefined) {
 		for (var i = n-1; i >= 0; --i) {
 			if (!hasNext()) break;
-			func(value, index, funcArg);
+			func(getValue(), getIndex(), funcArg);
 			next();
 		}
 	};
@@ -122,7 +122,7 @@ function GMIter() constructor {
 		var arr = [];
 		for (var i = n-1; i >= 0; --i) {
 			if (!hasNext()) break;
-			array_push(arr, func(value, index, funcArg));
+			array_push(arr, func(getValue(), getIndex(), funcArg));
 			next();
 		}
 		return arr;

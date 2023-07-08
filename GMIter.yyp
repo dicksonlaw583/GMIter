@@ -20,6 +20,7 @@
     {"id":{"name":"ArrayIter","path":"scripts/ArrayIter/ArrayIter.yy",},"order":1,},
     {"id":{"name":"__GMA_BREAKPOINT__","path":"scripts/__GMA_BREAKPOINT__/__GMA_BREAKPOINT__.yy",},"order":0,},
     {"id":{"name":"GMIterList","path":"scripts/GMIterList/GMIterList.yy",},"order":13,},
+    {"id":{"name":"LineIter","path":"scripts/LineIter/LineIter.yy",},"order":0,},
     {"id":{"name":"TimesIter","path":"scripts/TimesIter/TimesIter.yy",},"order":0,},
     {"id":{"name":"gmiter_test_csv_file_array","path":"scripts/gmiter_test_csv_file_array/gmiter_test_csv_file_array.yy",},"order":16,},
     {"id":{"name":"GMIter","path":"scripts/GMIter/GMIter.yy",},"order":0,},
@@ -29,6 +30,7 @@
     {"id":{"name":"gmiter_test_text_file","path":"scripts/gmiter_test_text_file/gmiter_test_text_file.yy",},"order":15,},
     {"id":{"name":"gmiter_test_all","path":"scripts/gmiter_test_all/gmiter_test_all.yy",},"order":1,},
     {"id":{"name":"GMIterForEachSpy","path":"scripts/GMIterForEachSpy/GMIterForEachSpy.yy",},"order":3,},
+    {"id":{"name":"gmiter_test_line","path":"scripts/gmiter_test_line/gmiter_test_line.yy",},"order":19,},
     {"id":{"name":"GMIterNextException","path":"scripts/GMIterNextException/GMIterNextException.yy",},"order":1,},
     {"id":{"name":"RangeIter","path":"scripts/RangeIter/RangeIter.yy",},"order":8,},
     {"id":{"name":"GMIterMap","path":"scripts/GMIterMap/GMIterMap.yy",},"order":11,},
@@ -71,6 +73,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Basic","folderPath":"folders/Libraries/GMIter/Basic.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bogus","folderPath":"folders/Libraries/GMIter/Bogus.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Core","folderPath":"folders/Libraries/GMIter/Core.yy","order":2,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Geometric","folderPath":"folders/Libraries/GMIter/Geometric.yy","order":5,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},

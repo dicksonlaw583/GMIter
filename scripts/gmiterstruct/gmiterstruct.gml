@@ -4,7 +4,7 @@
 function GMIterStruct(){
 	var strc = {};
 	for (var i = 0; i < argument_count; i += 2) {
-		strc[$ argument[i]] = argument[i+1];
+		strc[$ string(argument[i])] = argument[i+1];
 	}
 	return strc;
 }

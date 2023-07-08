@@ -16,7 +16,7 @@ function GMIter() constructor {
 	
 	///@func getIndex()
 	///@return {Any}
-	///@desc Return the current index. If index is an array or struct, return a shallow copy of it.
+	///@desc Return the current index. If index is an array, return a shallow copy of it.
 	static getIndex = function() {
 		//Feather disable GM1045
 		if (is_array(index)) {
@@ -30,7 +30,7 @@ function GMIter() constructor {
 	
 	///@func getValue()
 	///@return {Any}
-	///@desc Return the current value. If value is an array or struct, return a shallow copy of it.
+	///@desc Return the current value. If value is an array, return a shallow copy of it.
 	static getValue = function() {
 		//Feather disable GM1045
 		if (is_array(value)) {
@@ -51,7 +51,7 @@ function GMIter() constructor {
 		var arr = [];
 		for (var i = n-1; i >= 0; --i) {
 			if (!hasNext()) break;
-			array_push(arr, getValue());
+			array_push(arr, value);
 			next();
 		}
 		return arr;
@@ -65,7 +65,7 @@ function GMIter() constructor {
 		var arr = [];
 		for (var i = n-1; i >= 0; --i) {
 			if (!hasNext()) break;
-			array_push(arr, getIndex());
+			array_push(arr, index);
 			next();
 		}
 		return arr;
@@ -79,7 +79,7 @@ function GMIter() constructor {
 		var arr = [];
 		for (var i = n-1; i >= 0; --i) {
 			if (!hasNext()) break;
-			array_push(arr, [getValue(), getIndex()]);
+			array_push(arr, [value, index]);
 			next();
 		}
 		return arr;
@@ -93,7 +93,7 @@ function GMIter() constructor {
 		var strc = {};
 		for (var i = n-1; i >= 0; --i) {
 			if (!hasNext()) break;
-			strc[$ string(index)] = getValue();
+			strc[$ string(index)] = value;
 			next();
 		}
 		return strc;
@@ -107,7 +107,7 @@ function GMIter() constructor {
 	static forEach = function(func, n=infinity, funcArg=undefined) {
 		for (var i = n-1; i >= 0; --i) {
 			if (!hasNext()) break;
-			func(getValue(), getIndex(), funcArg);
+			func(value, index, funcArg);
 			next();
 		}
 	};
@@ -122,7 +122,7 @@ function GMIter() constructor {
 		var arr = [];
 		for (var i = n-1; i >= 0; --i) {
 			if (!hasNext()) break;
-			array_push(arr, func(getValue(), getIndex(), funcArg));
+			array_push(arr, func(value, index, funcArg));
 			next();
 		}
 		return arr;

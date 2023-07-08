@@ -20,10 +20,8 @@ function LineIter(x0, y0, x1, y1, n) : GMIter() constructor {
 			throw new GMIterNextException(self);
 		}
 		progress = count/n;
-		index[0] = count;
-		index[1] = progress;
-		value[0] = lerp(x0, x1, progress);
-		value[1] = lerp(y0, y1, progress);
+		index = [count, progress];
+		value = [lerp(x0, x1, progress), lerp(y0, y1, progress)];
 	};
 	
 	// Constructor

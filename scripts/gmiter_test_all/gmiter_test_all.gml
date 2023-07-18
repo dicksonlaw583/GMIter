@@ -17,6 +17,7 @@ function gmiter_test_all() {
 	gmiter_test_csv_file_array();
 	gmiter_test_csv_file_struct();
 	gmiter_test_line();
+	gmiter_test_path();
 	/* ^ Tests here ^ */
 	
 	timeB = current_time;

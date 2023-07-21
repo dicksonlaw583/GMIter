@@ -18,6 +18,8 @@ function gmiter_test_all() {
 	gmiter_test_csv_file_struct();
 	gmiter_test_line();
 	gmiter_test_path();
+	gmiter_test_ellipse();
+	gmiter_test_circle();
 	/* ^ Tests here ^ */
 	
 	timeB = current_time;

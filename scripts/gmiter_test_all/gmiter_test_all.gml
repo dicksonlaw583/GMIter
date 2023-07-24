@@ -23,6 +23,7 @@ function gmiter_test_all() {
 	gmiter_test_ellipse();
 	gmiter_test_circle();
 	gmiter_test_lattice();
+	gmiter_test_zip();
 	/* ^ Tests here ^ */
 	
 	timeB = current_time;

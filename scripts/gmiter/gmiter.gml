@@ -68,12 +68,14 @@ function GMIter() constructor {
 			array_push(arr, index);
 			next();
 		}
+		///Feather disable GM1045
 		return arr;
+		///Feather enable GM1045
 	};
 	
 	///@func fetchValueIndexArray([n])
 	///@arg {real} n (Optional) Maximum number of iterations to retrieve. Default: infinity
-	///@return {Array<Array<Any>>}
+	///@return {Array<Array<Any*>>}
 	///@desc Iterate and return an array of the next n values and indices, in [[value0, index0], [value1, index1], ...] form. If n is unspecified, continue until hasNext() returns false.
 	static fetchValueIndexArray = function(n=infinity) {
 		var arr = [];
@@ -82,7 +84,9 @@ function GMIter() constructor {
 			array_push(arr, [value, index]);
 			next();
 		}
+		///Feather disable GM1045
 		return arr;
+		///Feather enable GM1045
 	};
 	
 	///@func fetchValueIndexStruct([n])

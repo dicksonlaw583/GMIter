@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"StructIter","path":"scripts/StructIter/StructIter.yy",},"order":2,},
     {"id":{"name":"__GMA_SETTINGS__","path":"scripts/__GMA_SETTINGS__/__GMA_SETTINGS__.yy",},"order":1,},
+    {"id":{"name":"gmiter_test_lattice","path":"scripts/gmiter_test_lattice/gmiter_test_lattice.yy",},"order":27,},
     {"id":{"name":"gmiter_test_drone","path":"scripts/gmiter_test_drone/gmiter_test_drone.yy",},"order":4,},
     {"id":{"name":"CsvFileStructIter","path":"scripts/CsvFileStructIter/CsvFileStructIter.yy",},"order":7,},
     {"id":{"name":"gmiter_test_nothing","path":"scripts/gmiter_test_nothing/gmiter_test_nothing.yy",},"order":2,},
@@ -15,6 +16,7 @@
     {"id":{"name":"TextFileIter","path":"scripts/TextFileIter/TextFileIter.yy",},"order":5,},
     {"id":{"name":"GMIterStruct","path":"scripts/GMIterStruct/GMIterStruct.yy",},"order":5,},
     {"id":{"name":"EllipseIter","path":"scripts/EllipseIter/EllipseIter.yy",},"order":2,},
+    {"id":{"name":"LatticeIter","path":"scripts/LatticeIter/LatticeIter.yy",},"order":11,},
     {"id":{"name":"gmiter_test_circle","path":"scripts/gmiter_test_circle/gmiter_test_circle.yy",},"order":23,},
     {"id":{"name":"NothingIter","path":"scripts/NothingIter/NothingIter.yy",},"order":0,},
     {"id":{"name":"gmiter_test_ds_grid","path":"scripts/gmiter_test_ds_grid/gmiter_test_ds_grid.yy",},"order":26,},

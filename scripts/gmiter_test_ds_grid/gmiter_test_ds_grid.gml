@@ -17,6 +17,7 @@ function gmiter_test_ds_grid(){
 	assert_equal(gridIter.value, undefined, "Core with DsGridIter - Starting state - Bad value for empty");
 	assert_equal(gridIter.getIndex(), [0, 0], "Core with DsGridIter - Starting state - Bad getIndex() for empty");
 	assert_equal(gridIter.getValue(), undefined, "Core with DsGridIter - Starting state - Bad getValue() for empty");
+	ds_grid_destroy(gridIter.grid);
 	
 	gridIter = new DsGridIter(fixture32);
 	assert_equal(gridIter.index, [0, 0], "Core with DsGridIter - Starting state - index for normal");
